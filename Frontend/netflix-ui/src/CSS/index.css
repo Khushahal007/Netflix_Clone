@@ -1,0 +1,49 @@
+.logo-container {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.logo-container img {
+  width: 200px;
+  height: auto;
+}
+
+.sign-in-btn {
+  display: inline-block;
+  background-color: #e50914;
+  color: white;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+  position: absolute;
+  top: 32px;
+  right: 35px;
+}
+
+.sign-in-btn:hover {
+  background-color: #db0e26;
+  cursor: pointer;
+}
+
+.getStarted{
+  display: inline-block;
+  background-color: #e50914;
+  color: white;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+  position: absolute;
+  top: 535px;
+  right: 500px;
+  cursor:pointer;
+}
+
