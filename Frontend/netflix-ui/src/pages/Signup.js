@@ -21,6 +21,7 @@ function Signup() {
   const handleSignIn=async ()=>{
     try {
       const {email, password}=formValues;
+      // import from firebase build in method
       await createUserWithEmailAndPassword(firebaseAuth,email, password);
     } catch (error) {
       console.log(error)
@@ -37,7 +38,7 @@ function Signup() {
       <div className="content">
         <Headers />
 
-        <div className="body flex column a-center j-center">
+        <div>
           <div style={{
             position: 'absolute',
             top: '50%',

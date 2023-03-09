@@ -47,3 +47,119 @@
   cursor:pointer;
 }
 
+.LogIn{
+  display: inline-block;
+  background-color: #e50914;
+  color: white;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+  position: absolute;
+  top: 535px;
+  right: 500px;
+  cursor:pointer;
+}
+
+.loginBlock{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  width:350px;
+  height:380px;
+  color: white;
+  background-color: black;
+  opacity:0.7;
+}
+
+.loginBlock h3{
+  font-size:35px;
+  margin-left:20px;
+}
+
+.email{
+  width:235px;
+  height:34px;
+  margin-left:15px;
+  padding-left: 20px;
+  filter: brightness(110%);
+}
+
+.password{
+  width:235px;
+  height:34px;
+  margin-left:15px;
+  margin-top:23px;
+  padding-left: 20px;
+  filter: brightness(110%);
+}
+
+
+.loginBut{
+
+    display: inline-block;
+    background-color: #e50914;
+    color: white;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    transition: background-color 0.3s ease-in-out;
+    position: absolute;
+    top: 250px;
+    right: 70px;
+    width:75%;
+    filter: brightness(110%);
+    
+  }
+  
+  .loginBut:hover {
+    background-color: #db0e26;
+    cursor: pointer;
+  }
+  
+.new{
+
+  margin-top: 90px;
+  margin-left: 17px;
+  
+}
+
+.navLinks{
+  margin-right:40px;
+  text-decoration: none;
+  color:white;
+}
+
+.link{
+  margin-left:220px;
+  margin-top:-42px;
+}
+
+.search{
+  width:150px;
+  background-color: red;
+}
+
+
+
+.signOut-btn{
+  position: absolute;
+  color:red;
+  margin-top: -35px;
+  margin-left:1350px;
+  display: inline-block;
+  background-color: #e50914;
+  color: white;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+}
+ 
