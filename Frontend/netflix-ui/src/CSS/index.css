@@ -163,3 +163,78 @@
   border-radius: 3px;
 }
  
+.mlogo{
+  
+  margin-top: -34rem;
+  margin-left: 5.5rem;
+  position: absolute;
+  
+}
+
+.homeJpg{
+    
+     width:200vh;
+     height:100vh;
+     filter: brightness(65%);
+     
+}
+
+.buttonPlay{
+     position:absolute;
+     margin-top: -15rem;
+     margin-left: 6rem;
+   
+}
+
+.buttonPlay .btn-play{
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border:none;
+    cursor:pointer;
+    transition: 0.3s ease-in-out;
+}
+.buttonPlay .btn-play:hover{
+     opacity: 0.8;
+}
+
+.buttonPlay .btn-circle{
+  margin-left:2rem;
+  font-size: 1.1rem;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border:none;
+  cursor:pointer;
+  transition: 0.3s ease-in-out;
+  background-color: grey;
+  color:white;
+}
+
+
+.player{
+  width:100vw;
+  height:100vh;
+  object-fit: cover;
+}
+
+.back{
+  position:absolute;
+  padding:2rem;
+  z-index: 1;
+}
+
+.back svg{
+  font-size: 3rem;
+  cursor:pointer;
+  color:white;
+}
+
+video{
+  height:100%;
+  width:100%;
+  
+}
